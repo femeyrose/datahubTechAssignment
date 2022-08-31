@@ -130,6 +130,11 @@ hr {
     height: 520px;
 }
 
+.product-img{
+    width: 700px;
+    height: 250px; 
+}
+
 .img-pad{
     padding:10px;
 }
@@ -205,6 +210,13 @@ font-size:12px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #f8f7f7ba;
+}
+
+.counter-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .counter-count::after {
@@ -330,6 +342,10 @@ font-size:12px;
 
     .circle-img-section{
         flex-direction: column;
+    }
+
+    .count-ht{
+        height:155px;
     }
 
 }
